@@ -16,7 +16,7 @@ const Cards = () => {
                         <p className='py-2 border-b mx-8'>Set Goals</p>
                         <p className='py-2 border-b mx-8'>Check Local deals</p>
                     </div>
-                    <button className='bg-green-500 w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 text-white'><a href="https://unibudget.ct.ws" target='blank_'>Start Budgetting</a></button>
+                    <button className='bg-green-500 w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 text-white'><a href="https://unibudget.ct.ws" target='_blank' rel='noreferrer'>Start Budgetting</a></button>
                 </div>
                 <div className='w-full shadow-xl flex flex-col p-4 my-8 md:my-0 rounded-lg hover:scale-105 duration-300 '>
                     <img src={Weathora} alt="UniBudget" className='w-20 mx-auto mt-[-3rem] bg-white' />
@@ -27,7 +27,7 @@ const Cards = () => {
                         <p className='py-2 border-b mx-8'>Check live weather map</p>
                         <p className='py-2 border-b mx-8'>Stay ahead of the weather, every day</p>
                     </div>
-                    <button className='bg-blue-700 w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 text-white'><a href="https://mohx953.github.io/mntlabs-weathora/" target='blank_'>Check Weather</a></button>
+                    <button className='bg-blue-700 w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 text-white'><a href="https://mohx953.github.io/mntlabs-weathora/" target='_blank' rel='noreferrer'>Check Weather</a></button>
                 </div>
                 <div className='w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300 '>
                     <img src={Score} alt="UniBudget" className='w-20 mx-auto mt-[-3rem] bg-white' />
@@ -38,7 +38,7 @@ const Cards = () => {
                         <p className='py-2 border-b mx-8'>Real-Time Updates</p>
                         <p className='py-2 border-b mx-8'>Multiple Leagues</p>
                     </div>
-                    <button className='bg-red-700 w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 text-white'><a href="https://mohx953.github.io/mntlabs-livescore/live-score.html" target='blank_'>View Live Scores</a></button>
+                    <button className='bg-red-700 w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 text-white'><a href="https://mohx953.github.io/mntlabs-livescore/live-score.html" target='_blank' rel='noreferrer'>View Live Scores</a></button>
                 </div>
             </div>
 

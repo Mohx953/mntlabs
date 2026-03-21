@@ -13,11 +13,11 @@ const handleNav = () =>{
             <h1 className='w-full text-3xl font-bold text-blue-500' >MNTLABS</h1>
             <ul className='flex hidden md:flex'>
                 <li className='p-4'><a href="#">HOME</a></li>
-                <li  className='p-4'><a href="https://unibudget.ct.ws" target='blank_'>UNIBUDGET</a></li>
-                <li className='p-4'><a href="https://mohx953.github.io/mntlabs-weathora/" target='blank_'>WEATHORA</a></li>
-                <li className='p-4'><a href="https://mohx953.github.io/mntlabs-livescore/live-score.html">MNTLIVESCORE</a></li>
+                <li  className='p-4'><a href="https://unibudget.ct.ws" target='_blank' rel='noreferrer'>UNIBUDGET</a></li>
+                <li className='p-4'><a href="https://mohx953.github.io/mntlabs-weathora/" target='_blank' rel='noreferrer'>WEATHORA</a></li>
+                <li className='p-4'><a href="https://mohx953.github.io/mntlabs-livescore/live-score.html" target='_blank' rel='noreferrer'>MNTLIVESCORE</a></li>
                 <li className='p-4'><a href="#footer">ABOUT</a></li>
-                <li className='p-4'><a href="https://mntlabs-mahamule.wuaze.com/" target='blank_'>CONTACT</a></li>
+                <li className='p-4'><a href="https://mntlabs-mahamule.wuaze.com/" target='_blank' rel='noreferrer'>CONTACT</a></li>
             </ul>
             <div onClick={handleNav} className='block md:hidden'>
                 {nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20} />}
@@ -28,11 +28,11 @@ const handleNav = () =>{
                     <h1 className='w-full text-3xl font-bold text-blue-500 m-4' >MNTLABS</h1>
                     <ul className=' uppercase p-4'>
                         <li className='p-4 border-b border-gray-500'><a href="#">HOME</a></li>
-                        <li className='p-4 border-b border-gray-500'><a href="https://unibudget.ct.ws" target='blank_'>UNIBUDGET</a></li>
-                        <li className='p-4 border-b border-gray-500'><a href="https://mohx953.github.io/mntlabs-weathora/" target='blank_'>WEATHORA</a></li>
-                        <li className='p-4 border-b border-gray-500'>MNTLIVESCORE</li>
-                        <li className='p-4 border-b border-gray-500'><a href="https://mntlabs-mahamule.wuaze.com/" target='blank_'>ABOUT</a></li>
-                        <li className='p-4'><a href="https://mntlabs-mahamule.wuaze.com/" target='blank_'>CONTACT</a></li>
+                        <li className='p-4 border-b border-gray-500'><a href="https://unibudget.ct.ws" target='_blank' rel='noreferrer'>UNIBUDGET</a></li>
+                        <li className='p-4 border-b border-gray-500'><a href="https://mohx953.github.io/mntlabs-weathora/" target='_blank' rel='noreferrer'>WEATHORA</a></li>
+                        <li className='p-4 border-b border-gray-500'><a href="https://mohx953.github.io/mntlabs-livescore/live-score.html" target='_blank' rel='noreferrer'>MNTLIVESCORE</a></li>
+                        <li className='p-4 border-b border-gray-500'><a href="https://mntlabs-mahamule.wuaze.com/" target='_blank' rel='noreferrer'>ABOUT</a></li>
+                        <li className='p-4'><a href="https://mntlabs-mahamule.wuaze.com/" target='_blank' rel='noreferrer'>CONTACT</a></li>
                     </ul>
                 </div>
             </div>
