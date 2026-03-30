@@ -50,7 +50,7 @@ const Cards = () => {
                         <p className='py-2 border-b mx-8'>Real-Time ratings</p>
                         <p className='py-2 border-b mx-8'>Trending across all genres</p>
                     </div>
-                    <button className='bg-blue-700 w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 text-white'><a href="https://mntlabs-movies.vercel.app" target='_blank' rel='noreferrer'>View Live Scores</a></button>
+                    <button className='bg-blue-700 w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 text-white'><a href="https://mntlabs-movies.vercel.app" target='_blank' rel='noreferrer'>Check Movies & Series</a></button>
                 </div>
             </div>
 
