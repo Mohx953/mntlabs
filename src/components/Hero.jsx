@@ -9,7 +9,7 @@ const Hero = () => {
             <h1 className='md:text-7xl sm:text-6xl text-4xl font-bold md:py-6'>MN-Tech Labs.</h1>
             <div className='flex justify-center items-center'>
                 <p className='md:text-5xl sm:text-4xl text-xl font-bold  py-4'>Home of:</p>
-                <ReactTyped className='md:text-5xl sm:text-4xl text-xl font-bold pl-2 md:pl-4' strings={['UNIBUDGET', 'WEATHORA','MNT-LIVESCORE']} typeSpeed={100} backSpeed={120} loop/>
+                <ReactTyped className='md:text-5xl sm:text-4xl text-xl font-bold pl-2 md:pl-4' strings={['UNIBUDGET', 'WEATHORA','MNT-LIVESCORE', 'MNT-MOVIES']} typeSpeed={100} backSpeed={120} loop/>
             </div>
             <p className='md:text-2xl text-xl font-bold text-gray-500'>From tracking your budget to checking the weather and never missing a score — MNT Labs builds the tools that run your day.</p>
             <button className='bg-blue-500 w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3'><a href="#cards">Go MNT</a></button>
