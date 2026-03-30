@@ -16,6 +16,7 @@ const handleNav = () =>{
                 <li  className='p-4'><a href="https://unibudget.ct.ws" target='_blank' rel='noreferrer'>UNIBUDGET</a></li>
                 <li className='p-4'><a href="https://mohx953.github.io/mntlabs-weathora/" target='_blank' rel='noreferrer'>WEATHORA</a></li>
                 <li className='p-4'><a href="https://mohx953.github.io/mntlabs-livescore/live-score.html" target='_blank' rel='noreferrer'>MNTLIVESCORE</a></li>
+                <li className='p-4'><a href="https://mntlabs-movies.vercel.app" target='_blank' rel='noreferrer'>MNTMOVIES</a></li>
                 <li className='p-4'><a href="#footer">ABOUT</a></li>
                 <li className='p-4'><a href="https://mntlabs-mahamule.wuaze.com/" target='_blank' rel='noreferrer'>CONTACT</a></li>
             </ul>
@@ -31,6 +32,7 @@ const handleNav = () =>{
                         <li className='p-4 border-b border-gray-500'><a href="https://unibudget.ct.ws" target='_blank' rel='noreferrer'>UNIBUDGET</a></li>
                         <li className='p-4 border-b border-gray-500'><a href="https://mohx953.github.io/mntlabs-weathora/" target='_blank' rel='noreferrer'>WEATHORA</a></li>
                         <li className='p-4 border-b border-gray-500'><a href="https://mohx953.github.io/mntlabs-livescore/live-score.html" target='_blank' rel='noreferrer'>MNTLIVESCORE</a></li>
+                        <li className='p-4 border-b border-gray-500'><a href="https://mntlabs-movies.vercel.app" target='_blank' rel='noreferrer'>MNTMOVIES</a></li>
                         <li className='p-4 border-b border-gray-500'><a href="https://mntlabs-mahamule.wuaze.com/" target='_blank' rel='noreferrer'>ABOUT</a></li>
                         <li className='p-4'><a href="https://mntlabs-mahamule.wuaze.com/" target='_blank' rel='noreferrer'>CONTACT</a></li>
                     </ul>
