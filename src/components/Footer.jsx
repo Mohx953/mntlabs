@@ -25,6 +25,7 @@ const Footer = () => {
                 <li className='py-2 text-sm'><a href="https://unibudget.ct.ws" target='_blank' rel='noreferrer'>UniBudget</a></li>
                 <li className='py-2 text-sm'><a href="https://mohx953.github.io/mntlabs-weathora/" target='_blank' rel='noreferrer'>Weathora</a></li>
                 <li className='py-2 text-sm'><a href="https://mohx953.github.io/mntlabs-livescore/live-score.html" target='_blank' rel='noreferrer'>MntLiveScore</a></li>
+                <li className='py-2 text-sm'><a href="https://mntlabs-movies.vercel.app" target='_blank' rel='noreferrer'>MntMovies</a></li>
                 {/* <li></li> */}
             </ul>
         </div>
