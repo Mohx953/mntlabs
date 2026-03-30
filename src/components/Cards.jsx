@@ -2,6 +2,7 @@ import React from 'react'
 import Finance from '../assets/earning-calculation_17144099.png'
 import Weathora from '../assets/weather_831268.png'
 import Score from '../assets/smartphone_4768671.png'
+import Movie from '../assets/video-player.png'
 
 const Cards = () => {
     return (
@@ -39,6 +40,17 @@ const Cards = () => {
                         <p className='py-2 border-b mx-8'>Multiple Leagues</p>
                     </div>
                     <button className='bg-red-700 w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 text-white'><a href="https://mohx953.github.io/mntlabs-livescore/live-score.html" target='_blank' rel='noreferrer'>View Live Scores</a></button>
+                </div>
+                <div className='w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300 '>
+                    <img src={Movie} alt="UniBudget" className='w-20 mx-auto mt-[-3rem] bg-white' />
+                    <h2 className='text-2xl font-bold text-center py-8'>Mnt-Movies</h2>
+                    <p className='text-center text-4xl font-bold'>Your watch starts here.</p>
+                    <div className='text-center font-medium'>
+                        <p className='py-2 border-b mx-8'>Movies & series discovery</p>
+                        <p className='py-2 border-b mx-8'>Real-Time ratings</p>
+                        <p className='py-2 border-b mx-8'>Trending across all genres</p>
+                    </div>
+                    <button className='bg-blue-700 w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 text-white'><a href="https://mntlabs-movies.vercel.app" target='_blank' rel='noreferrer'>View Live Scores</a></button>
                 </div>
             </div>
 
