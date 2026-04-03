@@ -381,7 +381,7 @@
     shadow.appendChild(style);
     shadow.appendChild(wrapper);
 
-    const API_KEY = "AIzaSyDOB0klESBiGyROMJYT20xhJSf4yxNWwSg";
+    const API_KEY = "AIzaSyAOOa1eYFCa-osJusrKIoiqgOt64OUvHiA";
     const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${API_KEY}`;
 
     // all queries scoped to shadow so they never touch the host page
