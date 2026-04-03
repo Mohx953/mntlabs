@@ -381,7 +381,7 @@
   shadow.appendChild(style);
   shadow.appendChild(wrapper);
 
-  const API_KEY = "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";
+  const API_KEY = "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";
   const API_URL = "https://models.github.ai/inference/chat/completions";
 
   // all queries scoped to shadow so they never touch the host page
