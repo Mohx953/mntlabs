@@ -381,8 +381,8 @@
   shadow.appendChild(style);
   shadow.appendChild(wrapper);
 
-  const API_KEY = "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";
-  const API_URL = "https://models.github.ai/inference/chat/completions";
+
+  const API_URL = "https://mntlabs.mahamule-ntshangase1533.workers.dev";
 
   // all queries scoped to shadow so they never touch the host page
   const $ = (sel) => shadow.querySelector(sel);
@@ -423,7 +423,7 @@
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'Authorization': `Bearer ${API_KEY}`
+        
       },
       body: JSON.stringify({
         model: "openai/gpt-4o",
