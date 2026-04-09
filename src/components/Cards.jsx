@@ -42,7 +42,7 @@ const Cards = () => {
                         </button>
                     </Show>
                     <Show when="signed-in">
-                        <button className='bg-blue-700 w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 text-white'><a href="https://mohx953.github.io/mntlabs-weathora/" target='_blank' rel='noreferrer'>Check Weather</a></button>
+                        <button className='bg-blue-700 w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 text-white'><a href="https://mnt-weathora.vercel.app/" target='_blank' rel='noreferrer'>Check Weather</a></button>
                     </Show>
                 </div>
                 <div className='w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300 '>

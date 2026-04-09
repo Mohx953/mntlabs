@@ -49,7 +49,6 @@ const NavBar = () => {
                         <li className='p-4 border-b border-gray-500'><a href="https://mntlabs-mahamule.wuaze.com/" target='_blank' rel='noreferrer'>ABOUT</a></li>
                         <li className='p-4'><a href="https://mntlabs-mahamule.wuaze.com/" target='_blank' rel='noreferrer'>CONTACT</a></li>
                         <Show when="signed-out">
-
                             <button className='bg-blue-500 w-[150px] rounded-md font-medium my-3 mx-auto px-6 py-3 text-white'>
                                 <SignInButton />
                             </button>
